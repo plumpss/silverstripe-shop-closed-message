@@ -29,3 +29,9 @@ Include `ClosedMessage` wherever you'd like the message to appear. If the shop i
 	</div>
 </body>
 ```
+
+If you do not want to allow orders to be placed, replace the use of `$Form` in your product page template with an include of `FormOrClosedMessage`:
+
+```
+<% include FormOrClosedMessage %>
+```
