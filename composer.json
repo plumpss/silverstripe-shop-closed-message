@@ -1,0 +1,18 @@
+{
+	"name": "plumpss/silverstripe-shop-closed-message",
+	"description": "SilverStripe Shop module to temporarily close the shop.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "ecommerce", "shop", "closed"],
+	"license": "MIT",
+	"authors": [{
+		"name": "James Howard",
+		"email": "james@plumpdigital.co.uk",
+		"homepage": "http://www.plump.agency/"
+	}],
+	"extra": {
+		"installer-name": "shop_closedmessage"
+	},
+	"require": {
+		"burnbright/silverstripe-shop": "~1.0"
+	}
+}
