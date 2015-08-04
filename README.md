@@ -35,3 +35,5 @@ If you do not want to allow orders to be placed, replace the use of `$Form` in y
 ```
 <% include FormOrClosedMessage %>
 ```
+
+You can create your own versions of `ClosedMessage.ss` and/or `FormOrClosedMessage.ss` in your theme's `templates/Includes` directory for complete control of the markup. 
