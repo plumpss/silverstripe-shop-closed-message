@@ -1,0 +1,7 @@
+---
+Name: shopclosed
+---
+
+SiteConfig:
+  extensions:
+    - ShopClosedConfig
